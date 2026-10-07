@@ -52,7 +52,7 @@ Orden recomendado en un producto: personas (dónde duele) → ux-audit (por qué
 ```bash
 node ~/.claude/skills/pulir-interfaz/bin/inventario.mjs \
   --base http://localhost:5180 --rutas /admin/usuarios,/admin/roles,/configuracion \
-  --salida /tmp/ui/antes --login /auth/login --correo admin@test.com --clave '…' \
+  --salida /tmp/ui/antes --login /auth/login --correo usuario@ejemplo.com --clave '…' \
   --proyecto ./frontend          # de ahí toma Playwright
 ```
 
